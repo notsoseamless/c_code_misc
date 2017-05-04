@@ -1,0 +1,110 @@
+Programming and Operating System Related Interview Questions (firmware or embedded role)
+
+https://www.virtuq.com/
+
+1. Find out more about Raspberry Pi, what SoC it is based on etc.
+2. Find out more about the GNU project, mention a few distributions.
+3. Tell about yourself (any interview): Place, college, rank in class, programming (Linux/C/C++), say GNU/Linux.
+4. gcc/g++ command line options and compilation process.
+5. Review code profiling, compiler options, process, how to view output etc.
+6. GDB along with some debug example.
+7. Show code with a small memory error.
+8. Show a program which will dump core and how you will debug it.
+9. How can you figure out which program created the core file?
+10. Memory errors
+a. Illegal memory access
+b. Uninitialized memory access
+c. Memory leaks
+11. Valgrind and its usage.
+12. GNU Make, create a Makefile from scratch for compiling a “C/C++” program, patterns in Makefile, why use make instead of a shell script?
+13. Pointer arithmetic in C, accessing an int as a char, vice-versa, ++ operator on pointers, accessing a 1-D or a 2-D array using pointers.
+14. Pointers to structures.
+15. How to swap the values in 2 variables without using a temporary variable.
+16. Whether Windows or Linux are RTOSs.
+17. Explain mutex and semaphores.
+18. Data structures, focus on linked lists, dynamic arrays, trees and graphs. Do all the exercises from the material especially the tree/graph walks.
+19. Program to detect little and big-endian architectures?
+20. How do you access a memory buffer in an endian-safe way?
+21. Familiarity with scripting languages if not PERL (or others) then at least some scripting using shell scripts.
+22. Processor architecture, caches, main memory etc.
+23. How do caches work?
+24. Pipelining, difference between latency and throughput.
+25. 8-ball puzzle
+26. What are register and volatile variables?
+27. Polymorphism, inheritance, new/delete, why use classes, differences between C-structures and classes, difference between C++-structures and classes.
+28. What is a shell, under whose permission does a shell run?
+29. What is a static variable and what is a static function, give examples of both.
+30. Where are static, global and local variables stored?
+31. What is real-time operating system (RTOS)?
+32. What is priority inversion in operating systems?
+33. Function pointers along with at least one example.
+34. How do you reverse a singly-linked list?
+35. Recursive and iterative program to find a factorial and which you will use?
+36. What is a function context?
+37. Tell how virtual functions work.
+38. What is the difference between malloc and calloc?
+39. Difference between structures and unions.
+40. What is the space taken by a structure.
+41. Layout of elements in memory of a structure?
+42. What is a context switch?
+43. What is preemptive scheduling?
+44. How do you pass variable number of arguments in “C” and why this is a generally bad idea?
+45. What is the difference between void cfunc(void) and void cfunc()?
+46. Do you know aligned and non-aligned memory access?
+47. What is co-operative multi-tasking?
+48. What is memory fragmentation?
+49. What kind of memory errors can valgrind detect?
+50. Write a “C” function to remove all space from a string of characters, using constant space and O(n) steps.
+51. Which is preferable in simple embedded systems: arrays or dynamic memory using malloc and why?
+52. Write a program to detect whether the stack grows up or down?
+53. Where is heap memory located?
+54. Do you know inter-process communication mechanisms? Mentions 2-3 of them and explain.
+55. How do you kill a process in GNU/Linux?
+56. What is the difference between kill <pid> and kill -9 <pid>?
+57. How do you kill a process by name in GNU/Linux?
+58. What is the difference between a process and thread?
+59. How do you count the number of 1’s in a 32bit number?
+60. How can you check if a particular bit is set or not?
+61. How can you specifically ask for a 32bit or 64bit integer while writing your program?
+62. Difference between array name and a pointer.
+63. You have 3 N bit numbers a, b and c, how many bits do you need to store a*b + c?
+64. In one line check if a number if a power of two or not.
+65. Question on regular expression, also how can you invert the meaning of a regular expression?
+66. Do you know what is regression testing?
+67. What is meant by lvalue?
+68. Create a 3D memory region using an array declaration and then only pointer declarations and malloc.
+69. Is sizeof an operator of a function?
+70. What is stack overflow?
+71. Write a code to clear the nth bit in a variable.
+72. Where are local variables stores?
+73. Given two buffers, how will you figure out whether they overlap or not?
+74. Can I do a ++ on an array name e.g. int a[10]; a++?
+75. Write a program to reverse a character array in place.
+76. Do you know what is an interrupt?
+77. How is the interrupt handled in an operating system?
+78. What are memcpy and memcmp functions? Why you should use them instead of a for loop to copy and compare memory respectively?
+79. What is a hash table or hash map?
+80. Write a small function which uses malloc internally to return a 32bit aligned memory.
+81. What is wrong with this statement printf(“%d %d %d %d”, ++i, i++, ++i, i++)?
+82. Egg breaking puzzle.
+83. How do you find if two strings are anagrams of one another?
+84. Find out the most-significant bit of an integer
+85. What are the last few digits of factorial(60)?
+86. Write a small function which does memory allocation and returns it in one of the arguments and an associated program which makes use of this function.
+87. Name one c-library which has various data-structures implemented in it and that you used and/or are familiar with (much like STL in c++).
+88. What is STL in C++? Why is it desirable to use STL routines?
+89. Compare macros to functions.
+90. What is function inlining?
+91. How do you debug macro errors?
+92. Why you need to have a virtual destructor but cannot have a virtual constructor?
+93. What are userlimits?
+94. Write a program to cause a out-of-memory error.
+95. Write a program to cause a stack overflow error.
+96. How to you convert a number to string in C and C++?
+97. Write printfs to have zero-padded numbers.
+98. Printf example with floating point precision specification e.g. to print 5.12345 as 005.12.
+99. Do you know virtual memory? Why is it required?
+100. What is the difference between iostream.h and iostream?
+101. Which one will you prefer - references or pointers in C++ and why?
+
+
